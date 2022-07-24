@@ -1,11 +1,5 @@
 #! /bin/bash
 
-format_tags(){
- for tag in "$@"; do
-  echo "$tag"  
- done
-}
-
 cd ~/Proyects/bitbyte-blog/src/posts
 
 read -p "Post Name: " post_name
